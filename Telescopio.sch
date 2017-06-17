@@ -241,9 +241,9 @@ Text Label 8250 1750 0    60   Italic 12
 Text Label 6318 1932 0    60   Italic 12
 24v
 Text Label 7450 1750 2    60   Italic 12
-24v
+24v_Sal
 Text Label 7450 2450 2    60   Italic 12
-24v
+24v_Sal
 Text Label 7850 2050 2    60   Italic 12
 GND
 Text Label 7850 2750 2    60   Italic 12
@@ -260,9 +260,9 @@ Wire Notes Line
 Text Label 6918 3332 0    60   Italic 12
 PowerInput
 Text Label 2468 1632 0    60   Italic 12
-24v
+24v_Sal
 Text Label 4518 1782 0    60   Italic 12
-24v
+24v_Sal
 Text Label 2468 1732 0    60   Italic 12
 GND
 Text Label 4518 1882 0    60   Italic 12
@@ -550,4 +550,29 @@ Text Label 2475 4475 2    60   ~ 0
 SDA_2
 Text Label 2475 5075 2    60   ~ 0
 INT_IMU
+Wire Notes Line
+	750  3700 1750 3700
+Wire Notes Line
+	1750 3700 1750 5025
+Wire Notes Line
+	1750 5025 750  5025
+Wire Notes Line
+	750  5025 750  3700
+Text Label 750  5025 0    60   Italic 12
+IMU
+$Comp
+L SW_PUSH SW1
+U 1 1 59457ED8
+P 6100 2725
+F 0 "SW1" H 6250 2835 50  0000 C CNN
+F 1 "SW_PUSH" H 6100 2645 50  0000 C CNN
+F 2 "Buttons_Switches_ThroughHole:SW_PUSH" H 6100 2725 50  0001 C CNN
+F 3 "" H 6100 2725 50  0000 C CNN
+	1    6100 2725
+	1    0    0    -1  
+$EndComp
+Text Label 5800 2725 2    60   Italic 12
+24v
+Text Label 6400 2725 0    60   ~ 0
+24v_Sal
 $EndSCHEMATC
