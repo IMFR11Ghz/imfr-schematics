@@ -46,7 +46,7 @@ $EndDescr
 Text Label 4320 4410 0    60   Italic 12
 ESP32_lora
 Text Label 5410 2310 0    60   Italic 12
-GND1
+GND
 NoConn ~ 4660 3910
 NoConn ~ 4660 3810
 NoConn ~ 4660 3710
@@ -142,7 +142,7 @@ Text Label 2985 4090 2    60   Italic 12
 Text Label 3685 4090 0    60   Italic 12
 3v1
 Text Label 4660 2310 2    60   Italic 12
-GND2
+GND
 Text Label 3685 4590 0    60   Italic 12
 M0
 Text Label 3395 4985 0    60   Italic 12
@@ -156,7 +156,7 @@ NoConn ~ 3685 4390
 NoConn ~ 3685 4490
 NoConn ~ 2985 4490
 Text Label 6535 3105 2    60   Italic 12
-GND1
+GND
 Text Label 4660 2410 2    60   Italic 12
 5v1
 Text Label 4660 2510 2    60   Italic 12
@@ -190,7 +190,7 @@ SCL
 Text Label 3830 1835 3    60   Italic 12
 SDA
 Text Label 4030 1835 3    60   Italic 12
-GND2
+GND
 Text Label 3930 1835 3    60   Italic 12
 5v1
 NoConn ~ 7395 3565
