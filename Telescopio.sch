@@ -230,10 +230,6 @@ F 3 "" H 5210 3210 50  0000 C CNN
 	1    5210 3210
 	-1   0    0    1   
 $EndComp
-NoConn ~ 7235 2805
-NoConn ~ 7235 2905
-NoConn ~ 7235 3005
-NoConn ~ 7235 3105
 NoConn ~ 4660 3110
 Text Label 6535 2805 2    60   Italic 12
 VCC
@@ -445,4 +441,23 @@ Text Label 4960 4450 2    60   ~ 0
 GND
 Text Label 3025 4705 3    60   ~ 0
 GND
+$Comp
+L Conn_01x06 J?
+U 1 1 5A5781D2
+P 7740 2885
+F 0 "J?" H 7740 3185 50  0000 C CNN
+F 1 "ScaleOut" V 7840 2535 50  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x06" H 7740 2885 50  0001 C CNN
+F 3 "" H 7740 2885 50  0001 C CNN
+	1    7740 2885
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	7540 3085 7235 3105
+Wire Wire Line
+	7540 2985 7235 3005
+Wire Wire Line
+	7540 2885 7235 2905
+Wire Wire Line
+	7540 2785 7235 2805
 $EndSCHEMATC

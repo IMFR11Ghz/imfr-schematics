@@ -46,7 +46,7 @@ $EndDescr
 Text Label 4320 4410 0    60   Italic 12
 ESP32_lora
 Text Label 5410 2310 0    60   Italic 12
-GND1
+GND
 NoConn ~ 4660 3910
 NoConn ~ 4660 3810
 NoConn ~ 4660 3710
@@ -142,7 +142,7 @@ Text Label 2985 4090 2    60   Italic 12
 Text Label 3685 4090 0    60   Italic 12
 3v1
 Text Label 4660 2310 2    60   Italic 12
-GND2
+GND
 Text Label 3685 4590 0    60   Italic 12
 M0
 Text Label 3395 4985 0    60   Italic 12
@@ -156,7 +156,7 @@ NoConn ~ 3685 4390
 NoConn ~ 3685 4490
 NoConn ~ 2985 4490
 Text Label 6535 3105 2    60   Italic 12
-GND1
+GND
 Text Label 4660 2410 2    60   Italic 12
 5v1
 Text Label 4660 2510 2    60   Italic 12
@@ -190,7 +190,7 @@ SCL
 Text Label 3830 1835 3    60   Italic 12
 SDA
 Text Label 4030 1835 3    60   Italic 12
-GND2
+GND
 Text Label 3930 1835 3    60   Italic 12
 5v1
 NoConn ~ 7395 3565
@@ -230,10 +230,6 @@ F 3 "" H 5210 3210 50  0000 C CNN
 	1    5210 3210
 	-1   0    0    1   
 $EndComp
-NoConn ~ 7235 2805
-NoConn ~ 7235 2905
-NoConn ~ 7235 3005
-NoConn ~ 7235 3105
 NoConn ~ 4660 3110
 Text Label 6535 2805 2    60   Italic 12
 VCC
@@ -445,4 +441,23 @@ Text Label 4960 4450 2    60   ~ 0
 GND
 Text Label 3025 4705 3    60   ~ 0
 GND
+$Comp
+L Conn_01x06 J?
+U 1 1 5A5781D2
+P 7740 2885
+F 0 "J?" H 7740 3185 50  0000 C CNN
+F 1 "Scale" V 7840 2535 50  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x06" H 7740 2885 50  0001 C CNN
+F 3 "" H 7740 2885 50  0001 C CNN
+	1    7740 2885
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	7540 3085 7235 3105
+Wire Wire Line
+	7540 2985 7235 3005
+Wire Wire Line
+	7540 2885 7235 2905
+Wire Wire Line
+	7540 2785 7235 2805
 $EndSCHEMATC
