@@ -577,7 +577,7 @@
     )
   )
 
-  (module Pin_Headers:Pin_Header_Straight_1x02 (layer F.Cu) (tedit 54EA090C) (tstamp 5A5A0DA0)
+  (module Pin_Headers:Pin_Header_Straight_1x02 (layer F.Cu) (tedit 5A5701E6) (tstamp 5A5A0DA0)
     (at 111.9505 94.107 270)
     (descr "Through hole pin header")
     (tags "pin header")
@@ -585,7 +585,7 @@
     (fp_text reference Z2 (at 0 -5.1 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Motor (at 0 -3.1 270) (layer F.Fab)
+    (fp_text value Relay (at 0 -3.1 270) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 1.27 1.27) (end 1.27 3.81) (layer F.SilkS) (width 0.15))
